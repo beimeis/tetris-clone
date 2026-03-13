@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .tetris-bg-img {
@@ -17,7 +18,7 @@ body {
   background-size: 100%; 
   width: 100%;
   height: auto;
-  max-height: calc(100vh - 120px);
+  max-height: calc(95vh - 120px);
 }
 .tetris-title {
     color: #8f7a9c; 
